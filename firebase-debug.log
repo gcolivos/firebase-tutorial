@@ -1,41 +1,32 @@
-[debug] [2018-03-18T17:32:52.175Z] ----------------------------------------------------------------------
-[debug] [2018-03-18T17:32:52.178Z] Command:       /usr/local/Cellar/node/8.6.0/bin/node /usr/local/bin/firebase serve
-[debug] [2018-03-18T17:32:52.178Z] CLI Version:   3.17.6
-[debug] [2018-03-18T17:32:52.178Z] Platform:      darwin
-[debug] [2018-03-18T17:32:52.178Z] Node Version:  v8.6.0
-[debug] [2018-03-18T17:32:52.179Z] Time:          Sun Mar 18 2018 12:32:52 GMT-0500 (CDT)
-[debug] [2018-03-18T17:32:52.179Z] ----------------------------------------------------------------------
+[debug] [2018-03-18T17:57:22.219Z] ----------------------------------------------------------------------
+[debug] [2018-03-18T17:57:22.222Z] Command:       /usr/local/Cellar/node/8.6.0/bin/node /usr/local/bin/firebase serve
+[debug] [2018-03-18T17:57:22.222Z] CLI Version:   3.17.6
+[debug] [2018-03-18T17:57:22.222Z] Platform:      darwin
+[debug] [2018-03-18T17:57:22.222Z] Node Version:  v8.6.0
+[debug] [2018-03-18T17:57:22.223Z] Time:          Sun Mar 18 2018 12:57:22 GMT-0500 (CDT)
+[debug] [2018-03-18T17:57:22.223Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-03-18T17:32:52.191Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-03-18T17:32:52.191Z] > authorizing via signed-in user
-[debug] [2018-03-18T17:32:52.193Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2018-03-18T17:32:52.193Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
- { refresh_token: '1/2pGLMjjZqowljk24W4TwfzguMv41nU1_E3q3PaNY7lQ',
-  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
-  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
-  grant_type: 'refresh_token',
-  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Sun Mar 18 2018 12:32:52 GMT-0500 (CDT)
-[debug] [2018-03-18T17:32:52.387Z] <<< HTTP RESPONSE 200
-[debug] [2018-03-18T17:32:52.407Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fir-tutorial-c6aa1  
+[debug] [2018-03-18T17:57:22.249Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-18T17:57:22.249Z] > authorizing via signed-in user
+[debug] [2018-03-18T17:57:22.254Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fir-tutorial-c6aa1  
   
- Sun Mar 18 2018 12:32:52 GMT-0500 (CDT)
-[debug] [2018-03-18T17:32:52.712Z] <<< HTTP RESPONSE 200
-[debug] [2018-03-18T17:32:52.714Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fir-tutorial-c6aa1/tokens  
+ Sun Mar 18 2018 12:57:22 GMT-0500 (CDT)
+[debug] [2018-03-18T17:57:22.644Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-18T17:57:22.645Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fir-tutorial-c6aa1/tokens  
   
- Sun Mar 18 2018 12:32:52 GMT-0500 (CDT)
-[debug] [2018-03-18T17:32:53.110Z] <<< HTTP RESPONSE 200
-[debug] [2018-03-18T17:32:53.112Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fir-tutorial-c6aa1  
+ Sun Mar 18 2018 12:57:22 GMT-0500 (CDT)
+[debug] [2018-03-18T17:57:23.128Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-18T17:57:23.130Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fir-tutorial-c6aa1  
   
- Sun Mar 18 2018 12:32:53 GMT-0500 (CDT)
-[debug] [2018-03-18T17:32:53.415Z] <<< HTTP RESPONSE 200
+ Sun Mar 18 2018 12:57:23 GMT-0500 (CDT)
+[debug] [2018-03-18T17:57:23.363Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from '/Users/guillermoolivos/Documents/firebase-tutorial'...
 [info] 
-[debug] [2018-03-18T17:32:53.419Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/155080021447/clients/_:getWebAppConfig  
+[debug] [2018-03-18T17:57:23.368Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/155080021447/clients/_:getWebAppConfig  
   
- Sun Mar 18 2018 12:32:53 GMT-0500 (CDT)
-[debug] [2018-03-18T17:32:53.975Z] <<< HTTP RESPONSE 200
+ Sun Mar 18 2018 12:57:23 GMT-0500 (CDT)
+[debug] [2018-03-18T17:57:23.630Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: ./
 [info] ✔  hosting: Local server: http://localhost:5000
 

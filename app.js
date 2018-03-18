@@ -1,13 +1,15 @@
+  require ('dotenv').config();
+
   // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyA-eU3PwVrRIIwM-f2hVgrz4fLW-L-9FsE",
+    apiKey: process.env.GOOGLE_API_KEY,
     authDomain: "fir-tutorial-c6aa1.firebaseapp.com",
     databaseURL: "https://fir-tutorial-c6aa1.firebaseio.com",
     projectId: "fir-tutorial-c6aa1",
     storageBucket: "fir-tutorial-c6aa1.appspot.com",
     messagingSenderId: "155080021447"
   };
-  
+
   firebase.initializeApp(config);
 
   var header = document.getElementById('header');
