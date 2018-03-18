@@ -1,5 +1,6 @@
 {
   "projects": {
-    "tutorial": "fir-tutorial-c6aa1"
+    "tutorial": "fir-tutorial-c6aa1",
+    "production": "fir-tutorial-c6aa1"
   }
 }
