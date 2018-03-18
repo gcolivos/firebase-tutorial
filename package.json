@@ -1,11 +1,23 @@
 {
   "name": "firebase-tutorial",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcolivos/firebase-tutorial.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gcolivos/firebase-tutorial/issues"
+  },
+  "homepage": "https://github.com/gcolivos/firebase-tutorial#readme",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "firebase": "^4.11.0"
+  }
 }
